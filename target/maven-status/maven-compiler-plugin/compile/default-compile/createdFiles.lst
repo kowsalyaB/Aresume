@@ -1,0 +1,7 @@
+org\AcurusResume\Pageobj\AddApplicantDemo.class
+org\AcurusResume\Pageobj\LoginClass.class
+org\AcurusResume\classUtilities\JavaScriptCode.class
+org\AcurusResume\classUtilities\ReadConfig.class
+org\AcurusResume\classUtilities\JqueryCal.class
+org\AcurusResume\classUtilities\ReportingExtent.class
+org\AcurusResume\classUtilities\XlUtils.class

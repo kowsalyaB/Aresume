@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AcurusResume">
+
+	<listeners>
+		<listener
+			class-name="org.AcurusResume.classUtilities.ReportingExtent"></listener>
+	</listeners>
+
+	<test name="ResumeTracker">
+		<parameter name="browsername" value="chrome"></parameter>
+		<classes>
+			<class name="org.AcurusResume.PageTest.LoginTest"></class>
+		</classes>
+		
+	</test> <!-- Testdemo -->
+</suite> <!-- Suitetest -->
