@@ -75,7 +75,6 @@ public class EducationPage extends ReadConfig{
 			}
 		}
 	}
-
 	public void CerName(String name)
 	{
 		CertificateName.sendKeys(name);

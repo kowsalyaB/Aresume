@@ -27,7 +27,7 @@ public class JavaScriptCode {
 			// TODO: handle exception
 		}
 	}
-
+	
 	//Select date
 	public static void SelectdateByJs(WebDriver driver, WebElement DateEle,String DateVal)
 	{
