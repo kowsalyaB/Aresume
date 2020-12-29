@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class JavaScriptCode {
+	
 	//Flashing on element
 	public static void flash(WebElement element,WebDriver driver)
 	{
