@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AcurusResume]">
+  <parameter name="browsername" value="chrome"/>
+  <listeners>
+    <listener class-name="classUtils.ReportingExtent"/>
+  </listeners>
+  <test thread-count="5" name="ResumeTracker(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="PageTest.LoginTest">
+        <methods>
+          <include name="GetUrl"/>
+          <include name="Logintest"/>
+          <include name="DeleteCookies"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- PageTest.LoginTest -->
+    </classes>
+  </test> <!-- ResumeTracker(failed) -->
+</suite> <!-- Failed suite [AcurusResume] -->

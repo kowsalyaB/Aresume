@@ -1,0 +1,10 @@
+PageObj\EducationPage.class
+classUtils\JavaScriptCode.class
+PageObj\LoginPage.class
+PageObj\RetryAnalyserClass.class
+classUtils\JqueryCal.class
+classUtils\XlUtils.class
+PageObj\AnnotationTranformClass.class
+classUtils\ReadConfig.class
+PageObj\AddApplicantDemo.class
+classUtils\ReportingExtent.class

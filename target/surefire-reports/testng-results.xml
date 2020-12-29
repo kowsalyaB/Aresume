@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AcurusResume" duration-ms="19101" started-at="2020-12-29T01:59:08 PST" finished-at="2020-12-29T01:59:27 PST">
+    <groups>
+    </groups>
+    <test name="ResumeTracker" duration-ms="19101" started-at="2020-12-29T01:59:08 PST" finished-at="2020-12-29T01:59:27 PST">
+      <class name="PageTest.EducationTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.EducationTest@731a74c]" name="setUp" is-config="true" duration-ms="6589" started-at="2020-12-29T01:59:08 PST" finished-at="2020-12-29T01:59:15 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="GetUrl()[pri:0, instance:PageTest.EducationTest@731a74c]" name="GetUrl" is-config="true" duration-ms="6457" started-at="2020-12-29T01:59:15 PST" finished-at="2020-12-29T01:59:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUrl -->
+        <test-method status="PASS" signature="EduTest()[pri:0, instance:PageTest.EducationTest@731a74c]" name="EduTest" duration-ms="5850" started-at="2020-12-29T01:59:21 PST" finished-at="2020-12-29T01:59:27 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EduTest -->
+      </class> <!-- PageTest.EducationTest -->
+    </test> <!-- ResumeTracker -->
+  </suite> <!-- AcurusResume -->
+</testng-results>
