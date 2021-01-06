@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import org.AcurusResume.classUtilities.ReadConfig;
+import org.AcurusResume.classUtilities.TestUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -11,6 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -37,7 +39,7 @@ public class TestBaseClass {
 		logger.info("Launch the browser");
 		if(browser.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.silentOutput", "true");
+			System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
 			System.setProperty("webdriver.chrome.driver", configPro.GetChromedriver());
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--no-sandbox");
@@ -53,8 +55,8 @@ public class TestBaseClass {
 			System.setProperty("webdriver.chrome.driver", configPro.GetChromedriver());
 			driver=new InternetExplorerDriver();
 		}
-
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(TestUtils.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtils.IMPLICIT_WAIT,TimeUnit.SECONDS);
 
 	}
 

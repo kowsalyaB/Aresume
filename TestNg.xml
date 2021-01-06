@@ -5,6 +5,7 @@
 	<listeners>
 		<listener
 			class-name="org.AcurusResume.classUtilities.ReportingExtent"></listener>
+			<listener class-name="org.AcurusResume.classUtilities.Transformer"></listener>
 	</listeners>
 
 	<test name="ResumeTracker">

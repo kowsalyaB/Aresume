@@ -2,11 +2,13 @@ package org.AcurusResume.PageTest;
 
 import java.awt.AWTException;
 import java.io.IOException;
+import java.util.List;
 
 import org.AcurusResume.Pageobj.AddApplicantDemo;
 import org.AcurusResume.Pageobj.LoginClass;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -95,23 +97,26 @@ public class AddApplicantDemoTest extends TestBaseClass{
 		DemoPage.PosJobDepAppSrc();
 
 		logger.info("Uploaded File");
-		Thread.sleep(3000); 
+		Thread.sleep(5000); 
 		DemoPage.UploadNewFile();
 		
 		logger.info("Click on Next Button");
 		DemoPage.ClickNext();
 		
-		String PageColor=EduPageImgClr();
-		if(PageColor.equals("green"))
-		{
-			Assert.assertTrue(true);
-			logger.info("Succesfully Completed First Demo Page");
-		}
-		else
-		{
-			captureScreen(driver,"AddApplicantTest");
-			Asrt.assertFalse(false);
-			logger.info("Not succesfully Completed First Demo Page");
+		List<WebElement> PageText=EduPageHeadText();
+		for (WebElement webElement : PageText) {
+			if(webElement.getText().equals("Add Applicant - Qualification(s)"))
+			{
+				Assert.assertTrue(true);
+				logger.info("Succesfully Completed First Demo Page");
+				break;
+			}
+			else
+			{
+				captureScreen(driver,"AddApplicantTest");
+				Asrt.assertFalse(false);
+				logger.info("Not succesfully Completed First Demo Page");
+			}
 		}
 		
 		Asrt.assertAll();
@@ -129,10 +134,10 @@ public class AddApplicantDemoTest extends TestBaseClass{
 		return GenerateString;
 	}
 	
-	public String EduPageImgClr()
+	public List<WebElement> EduPageHeadText()
 	{
-		String color=driver.findElement(By.xpath("//h3[text()='Add Applicant - Qualification(s)']")).getCssValue("color");
-		return color;
+		List<WebElement> list=driver.findElements(By.xpath("//h3"));
+		return list;
 	}
 }
 

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="AcurusResume" duration-ms="32202" started-at="2020-11-08T20:24:54 IST" finished-at="2020-11-08T20:25:26 IST">
+  <suite name="AcurusResume" duration-ms="36824" started-at="2020-11-17T19:28:49 IST" finished-at="2020-11-17T19:29:26 IST">
     <groups>
     </groups>
-    <test name="ResumeTracker" duration-ms="32202" started-at="2020-11-08T20:24:54 IST" finished-at="2020-11-08T20:25:26 IST">
+    <test name="ResumeTracker" duration-ms="36824" started-at="2020-11-17T19:28:49 IST" finished-at="2020-11-17T19:29:26 IST">
       <class name="org.AcurusResume.PageTest.LoginTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.AcurusResume.PageTest.LoginTest@17d677df]" name="setUp" is-config="true" duration-ms="15926" started-at="2020-11-08T20:24:54 IST" finished-at="2020-11-08T20:25:10 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.AcurusResume.PageTest.LoginTest@52feb982]" name="setUp" is-config="true" duration-ms="13734" started-at="2020-11-17T19:28:50 IST" finished-at="2020-11-17T19:29:03 IST">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="GetUrl()[pri:0, instance:org.AcurusResume.PageTest.LoginTest@17d677df]" name="GetUrl" is-config="true" duration-ms="6727" started-at="2020-11-08T20:25:10 IST" finished-at="2020-11-08T20:25:17 IST">
+        <test-method status="PASS" signature="GetUrl()[pri:0, instance:org.AcurusResume.PageTest.LoginTest@52feb982]" name="GetUrl" is-config="true" duration-ms="11969" started-at="2020-11-17T19:29:03 IST" finished-at="2020-11-17T19:29:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUrl -->
-        <test-method status="PASS" signature="Logintest()[pri:0, instance:org.AcurusResume.PageTest.LoginTest@17d677df]" name="Logintest" duration-ms="7429" started-at="2020-11-08T20:25:17 IST" finished-at="2020-11-08T20:25:24 IST">
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:org.AcurusResume.PageTest.LoginTest@52feb982]" name="Logintest" duration-ms="8835" started-at="2020-11-17T19:29:15 IST" finished-at="2020-11-17T19:29:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method status="PASS" signature="DeleteCookies()[pri:0, instance:org.AcurusResume.PageTest.LoginTest@17d677df]" name="DeleteCookies" is-config="true" duration-ms="34" started-at="2020-11-08T20:25:24 IST" finished-at="2020-11-08T20:25:24 IST">
+        <test-method status="PASS" signature="DeleteCookies()[pri:0, instance:org.AcurusResume.PageTest.LoginTest@52feb982]" name="DeleteCookies" is-config="true" duration-ms="194" started-at="2020-11-17T19:29:24 IST" finished-at="2020-11-17T19:29:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteCookies -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.AcurusResume.PageTest.LoginTest@17d677df]" name="tearDown" is-config="true" duration-ms="1219" started-at="2020-11-08T20:25:24 IST" finished-at="2020-11-08T20:25:26 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.AcurusResume.PageTest.LoginTest@52feb982]" name="tearDown" is-config="true" duration-ms="1036" started-at="2020-11-17T19:29:24 IST" finished-at="2020-11-17T19:29:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -146,6 +146,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;AcurusResume&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;org.AcurusResume.classUtilities.ReportingExtent&quot;/&gt;
+    &lt;listener class-name=&quot;org.AcurusResume.classUtilities.Transformer&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ResumeTracker&quot;&gt;
     &lt;parameter name=&quot;browsername&quot; value=&quot;chrome&quot;/&gt;
@@ -194,12 +195,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Logintest')
 data.setCell(0, 2, 'org.AcurusResume.PageTest.LoginTest')
-data.setCell(0, 3, 7429);
+data.setCell(0, 3, 8835);
 window.suiteTableData['AcurusResume']= { tableData: data, tableDiv: 'times-div-AcurusResume'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-AcurusResume">
               </div> <!-- times-div-AcurusResume -->
             </div> <!-- times-div -->
@@ -232,19 +233,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">GetUrl</span>
-                <span class="method-start">15971 ms</span>
+                <span class="method-start">13770 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Logintest</span>
-                <span class="method-start">22700 ms</span>
+                <span class="method-start">25744 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">DeleteCookies</span>
-                <span class="method-start">30188 ms</span>
+                <span class="method-start">34627 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30226 ms</span>
+                <span class="method-start">34851 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
