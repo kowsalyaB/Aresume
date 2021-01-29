@@ -63,7 +63,7 @@ public class AddApplicantDemoTest extends TestBaseClass{
 		{
 			captureScreen(driver,"AddApplicantTest");
 			Asrt.assertFalse(false);
-			logger.info("Not succefully matched Demo page inner titile");
+			logger.info("Not succefully matched Demo page inner Titile");
 		}
 
 		logger.info("Clear Date Field and Entered Date");
