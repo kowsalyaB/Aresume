@@ -72,7 +72,7 @@ public class AddApplicantDemoTest extends TestBaseClass{
 		logger.info("Entered Firstname Lastname Middlename");
 		DemoPage.EnterFiLaMiName("Kowsalya","Balasubra","Maniam");
 
-		logger.info("Entered DOB");
+		logger.info("Entered the DOB");
 		DemoPage.DateOfBirth();
 
 		logger.info("Entered Primar, Secondary Number, Email, Address1 and Address2");
