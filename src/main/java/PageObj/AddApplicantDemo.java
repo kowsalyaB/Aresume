@@ -13,9 +13,9 @@ import classUtils.JqueryCal;
 import classUtils.ReadConfig;
 
 public class AddApplicantDemo extends ReadConfig{
-	static WebDriver driver;
+	public WebDriver driver;
 	public AddApplicantDemo(WebDriver driver) {
-		AddApplicantDemo.driver=driver;
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 
@@ -32,21 +32,21 @@ public class AddApplicantDemo extends ReadConfig{
 	WebElement GetDemoPageTitle;
 
 	@CacheLookup
-	@FindBy(id="RAF")
+	@FindBy(xpath="//input[@id='RAF']")
 	WebElement Dateclear;
 
 	String Dateval=prob.getProperty("Date");
 
 	@CacheLookup
-	@FindBy(id="fname")
+	@FindBy(xpath="//input[@id='fname']")
 	WebElement FirstName;
 
 	@CacheLookup
-	@FindBy(id="lname")
+	@FindBy(xpath="//input[@id='lname']")
 	WebElement LastName;
 
 	@CacheLookup
-	@FindBy(id="MiddleName")
+	@FindBy(xpath="//input[@id='MiddleName']")
 	WebElement MiddleName;
 
 	@CacheLookup
@@ -110,7 +110,7 @@ public class AddApplicantDemo extends ReadConfig{
 	WebElement NoticePer;
 
 	@CacheLookup
-	@FindBy(id="nextBtn")
+	@FindBy(xpath="//button[@id='nextBtn']")
 	WebElement NextBtn;
 
 	//Once opened Get the Title of Inner page "Acurus Applicant Tracker"
@@ -124,7 +124,7 @@ public class AddApplicantDemo extends ReadConfig{
 	public void FlasNewAppBtnandClick()
 	{
 		JavaScriptCode.flash(AddAppBtn, driver);
-		AddAppBtn.click();
+		JavaScriptCode.onClick(AddAppBtn, driver);
 	}
 
 	//Once opend get the demo page title "Add Applicant"
@@ -220,7 +220,7 @@ public class AddApplicantDemo extends ReadConfig{
 	}
 
 	//Click on Next Button
-	public void ClickNext()
+	public void ClickNextForAddAppDemo()
 	{
 		JavaScriptCode.onClick(NextBtn, driver);
 	}

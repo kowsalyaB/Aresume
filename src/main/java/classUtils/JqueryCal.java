@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -64,6 +65,15 @@ public class JqueryCal {
 		}
 	}
 
+	public static void EduCheckBoxes(WebDriver driver)
+	{
+		List<WebElement> checkList=driver.findElements(By.xpath("//div[@id='Qualification_div' or @id='certifications_div']"
+				+ "/descendant::input[@name='item_index[]']"));
+		for (WebElement webElement : checkList) {
+			webElement.click();
+		}
+	}
+
 	public static void UploadFile(WebDriver driver) throws AWTException, InterruptedException
 	{
 		WebElement Upload=driver.findElement(By.id("ResumeFileDoc"));
@@ -83,13 +93,9 @@ public class JqueryCal {
 		r.keyRelease(KeyEvent.VK_ENTER);
 	}
 	
-	public static void EduCheckBoxes(WebDriver driver)
+	public static void AlertAccept(WebDriver driver)
 	{
-		List<WebElement> checkList=driver.findElements(By.xpath("//div[@id='Qualification_div']//child::input"));
-		for (WebElement webElement : checkList) {
-			webElement.click();
-		}
+		Alert alrt=driver.switchTo().alert();
+		alrt.accept();
 	}
-	
-	
 }

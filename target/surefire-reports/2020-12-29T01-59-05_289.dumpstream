@@ -1,4 +1,0 @@
-# Created at 2020-12-29T01:59:06.885
-Boot Manifest-JAR contains absolute paths in classpath 'D:\Balajid\eclipse-workspace\AcurusResumeTracker\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

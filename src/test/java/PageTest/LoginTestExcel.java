@@ -21,7 +21,7 @@ public class LoginTestExcel extends TestBaseClass{
 	}
 
 	@Test(dataProvider = "LoginData")
-	public static void LoginDDT(String UserName, String PassWord, String Role) throws IOException
+	public void LoginDDT(String UserName, String PassWord, String Role) throws IOException
 	{
 		LoginPage Login=new LoginPage(driver);
 		logger.info("Entered UserName");
@@ -50,7 +50,7 @@ public class LoginTestExcel extends TestBaseClass{
 
 	}
 
-	public static void CheckLogin()
+	public void CheckLogin()
 	{
 		try
 		{

@@ -8,7 +8,6 @@
           <include name="GetUrl"/>
           <include name="Logintest"/>
           <include name="DeleteCookies"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- PageTest.LoginTest -->

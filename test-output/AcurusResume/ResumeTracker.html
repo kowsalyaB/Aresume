@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Dec 28 20:22:48 PST 2020</td>
+<td>Started on:</td><td>Mon Feb 08 21:28:00 PST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6724 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4698 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,8 +77,11 @@ function toggleAllBoxes() {
 <tr>
 <td title='PageTest.LoginTest.Logintest()'><b>Logintest</b><br>Test class: PageTest.LoginTest</td>
 <td><div><pre>java.lang.AbstractMethodError
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace421637524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace421637524'><pre>java.lang.AbstractMethodError
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1100078378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1100078378'><pre>java.lang.AbstractMethodError
 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
@@ -86,24 +89,12 @@ function toggleAllBoxes() {
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
 <td>0</td>
-<td>PageTest.LoginTest@6295d394</td></tr>
+<td>PageTest.LoginTest@3b2da18f</td></tr>
 </table><p>
 </body>
 </html>

@@ -105,9 +105,9 @@ public class AddApplicantDemoTest extends TestBaseClass{
 		DemoPage.UploadNewFile();
 
 		logger.info("Click on Next Button");
-		DemoPage.ClickNext();
+		DemoPage.ClickNextForAddAppDemo();
 
-		String PageTitle=EduPageImgClr();
+		String PageTitle=EduPageTitle();
 		if(PageTitle.equals("Add Applicant - Qualification(s)"))
 		{
 			Assert.assertTrue(true);
@@ -135,7 +135,7 @@ public class AddApplicantDemoTest extends TestBaseClass{
 		return GenerateString;
 	}
 
-	public String EduPageImgClr()
+	public String EduPageTitle()
 	{
 		String Title=driver.findElement(By.xpath("//h3[text()='Add Applicant - Qualification(s)']")).getText();
 		return Title;

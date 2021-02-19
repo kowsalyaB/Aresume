@@ -1,0 +1,314 @@
+2021-01-29 01:24:41 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:24:41 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:24:41 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:24:51 INFO  AcurusResume:25 - URL has opend
+2021-01-29 01:24:51 INFO  AcurusResume:15 - URL has opend
+2021-01-29 01:24:54 INFO  AcurusResume:22 - Entered username
+2021-01-29 01:24:57 INFO  AcurusResume:24 - Entered password
+2021-01-29 01:24:57 INFO  AcurusResume:26 - Selected value from dropdown
+2021-01-29 01:24:58 INFO  AcurusResume:28 - Clicked submit button
+2021-01-29 01:25:09 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 01:29:05 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:29:05 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:29:05 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:29:10 INFO  AcurusResume:15 - URL has opend
+2021-01-29 01:29:10 INFO  AcurusResume:25 - URL has opend
+2021-01-29 01:29:14 INFO  AcurusResume:22 - Entered username
+2021-01-29 01:29:15 INFO  AcurusResume:24 - Entered password
+2021-01-29 01:29:16 INFO  AcurusResume:26 - Selected value from dropdown
+2021-01-29 01:29:16 INFO  AcurusResume:28 - Clicked submit button
+2021-01-29 01:29:18 INFO  AcurusResume:30 - Get teh title
+2021-01-29 01:29:18 INFO  AcurusResume:32 - Thru assert condition it's checked
+2021-01-29 01:29:18 INFO  AcurusResume:36 - Login Test Passed
+2021-01-29 01:29:19 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 01:29:19 INFO  AcurusResume:38 - Get the Main Page Inner Text
+2021-01-29 01:29:19 INFO  AcurusResume:43 - Succefully matched Main page inner titile
+2021-01-29 01:29:19 INFO  AcurusResume:52 - Add Applicant Button got flashed and clicked
+2021-01-29 01:29:22 INFO  AcurusResume:55 - Get Demo Page Title
+2021-01-29 01:29:22 INFO  AcurusResume:60 - Succefully matched Demo page inner titile
+2021-01-29 01:29:22 INFO  AcurusResume:69 - Clear Date Field and Entered Date
+2021-01-29 01:29:22 INFO  AcurusResume:72 - Entered Firstname Lastname Middlename
+2021-01-29 01:29:22 INFO  AcurusResume:25 - Entered Firstname Lastname Middlename
+2021-01-29 01:29:24 INFO  AcurusResume:75 - Entered the DOB
+2021-01-29 01:29:24 INFO  AcurusResume:27 - Entered DOB
+2021-01-29 01:29:25 INFO  AcurusResume:78 - Entered Primar, Secondary Number, Email, Address1 and Address2
+2021-01-29 01:29:26 INFO  AcurusResume:82 - Seleted Country, State, Gender, Maritial, MRF from Drop Down
+2021-01-29 01:29:32 INFO  AcurusResume:85 - Entered City and PinCode
+2021-01-29 01:29:33 INFO  AcurusResume:88 - Selected Profile Freshness Radio Button
+2021-01-29 01:29:33 INFO  AcurusResume:91 - Entered Total Exp, Relevant Exp, Current CTC Per Month, Current Loc, Linkedin Pro, FaceBook Pro
+2021-01-29 01:29:33 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 01:29:35 INFO  AcurusResume:94 - Checked Project name has enabled/disabled
+2021-01-29 01:29:35 INFO  AcurusResume:97 - Checked and select Position Applied, Job Type, Department and Applicant Source
+2021-01-29 01:29:40 INFO  AcurusResume:100 - Scroll down the Page
+2021-01-29 01:29:40 INFO  AcurusResume:103 - Uploaded File
+2021-01-29 01:29:47 INFO  AcurusResume:107 - Click on Next Button
+2021-01-29 01:29:47 INFO  AcurusResume:114 - Succesfully Completed First Demo Page
+2021-01-29 01:29:47 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 01:45:39 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:45:39 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:45:39 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 01:45:43 INFO  AcurusResume:15 - URL has opend
+2021-01-29 01:45:43 INFO  AcurusResume:25 - URL has opend
+2021-01-29 01:45:50 INFO  AcurusResume:22 - Entered username
+2021-01-29 01:45:50 INFO  AcurusResume:24 - Entered password
+2021-01-29 01:45:50 INFO  AcurusResume:26 - Selected value from dropdown
+2021-01-29 01:45:51 INFO  AcurusResume:28 - Clicked submit button
+2021-01-29 01:45:52 INFO  AcurusResume:38 - Get the Main Page Inner Text
+2021-01-29 01:45:53 INFO  AcurusResume:43 - Succefully matched Main page inner titile
+2021-01-29 01:45:53 INFO  AcurusResume:52 - Add Applicant Button got flashed and clicked
+2021-01-29 01:45:53 INFO  AcurusResume:30 - Get teh title
+2021-01-29 01:45:53 INFO  AcurusResume:32 - Thru assert condition it's checked
+2021-01-29 01:45:53 INFO  AcurusResume:36 - Login Test Passed
+2021-01-29 01:45:53 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 01:45:56 INFO  AcurusResume:55 - Get Demo Page Title
+2021-01-29 01:45:56 INFO  AcurusResume:60 - Succefully matched Demo page inner titile
+2021-01-29 01:45:56 INFO  AcurusResume:69 - Clear Date Field and Entered Date
+2021-01-29 01:45:56 INFO  AcurusResume:72 - Entered Firstname Lastname Middlename
+2021-01-29 01:45:56 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 01:45:57 INFO  AcurusResume:75 - Entered the DOB
+2021-01-29 01:45:57 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 01:45:58 INFO  AcurusResume:78 - Entered Primar, Secondary Number, Email, Address1 and Address2
+2021-01-29 01:46:00 INFO  AcurusResume:82 - Seleted Country, State, Gender, Maritial, MRF from Drop Down
+2021-01-29 01:46:05 INFO  AcurusResume:85 - Entered City and PinCode
+2021-01-29 01:46:05 INFO  AcurusResume:88 - Selected Profile Freshness Radio Button
+2021-01-29 01:46:06 INFO  AcurusResume:91 - Entered Total Exp, Relevant Exp, Current CTC Per Month, Current Loc, Linkedin Pro, FaceBook Pro
+2021-01-29 01:46:06 INFO  AcurusResume:53 - Succesfully Completed Education Page
+2021-01-29 01:46:06 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 01:46:08 INFO  AcurusResume:94 - Checked Project name has enabled/disabled
+2021-01-29 01:46:08 INFO  AcurusResume:97 - Checked and select Position Applied, Job Type, Department and Applicant Source
+2021-01-29 01:46:14 INFO  AcurusResume:100 - Scroll down the Page
+2021-01-29 01:46:14 INFO  AcurusResume:103 - Uploaded File
+2021-01-29 01:46:21 INFO  AcurusResume:107 - Click on Next Button
+2021-01-29 01:46:22 INFO  AcurusResume:114 - Succesfully Completed First Demo Page
+2021-01-29 01:46:22 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 02:25:57 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 02:26:13 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 02:26:14 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 02:26:30 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 02:28:12 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 02:28:24 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 02:28:25 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 02:28:27 INFO  AcurusResume:62 - Not succesfully Completed Skills Page
+2021-01-29 02:28:27 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 02:31:12 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 02:31:21 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 02:31:22 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 02:31:25 INFO  AcurusResume:62 - Not succesfully Completed Skills Page
+2021-01-29 02:31:25 INFO  AcurusResume:62 - Quit the browser
+2021-01-29 02:44:03 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 02:44:12 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 02:44:13 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 02:44:16 INFO  AcurusResume:62 - Not succesfully Completed Skills Page
+2021-01-29 02:47:55 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 02:48:04 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 02:48:04 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 02:48:06 INFO  AcurusResume:57 - Succesfully Completed Skills Page
+2021-01-29 02:52:24 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 02:52:33 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 02:52:34 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 02:52:36 INFO  AcurusResume:57 - Succesfully Completed Skills Page
+2021-01-29 02:53:47 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 02:53:57 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 02:53:57 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 02:54:01 INFO  AcurusResume:57 - Succesfully Completed Skills Page
+2021-01-29 03:39:13 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:39:30 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 03:39:31 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 03:41:29 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:41:38 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 03:41:39 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 03:43:33 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:43:43 INFO  AcurusResume:33 - Entered Firstname Lastname Middlename
+2021-01-29 03:43:43 INFO  AcurusResume:35 - Entered DOB
+2021-01-29 03:47:20 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:47:42 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 03:47:43 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 03:49:38 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:49:49 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 03:49:50 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 03:51:46 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:51:58 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 03:51:59 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 03:53:30 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:53:41 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 03:53:42 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 03:53:44 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 03:55:44 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:55:54 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 03:55:55 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 03:55:59 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 03:57:12 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 03:57:28 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 03:57:30 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 03:57:37 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 04:00:07 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:00:22 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:00:24 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:00:27 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 04:03:09 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:03:22 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:03:23 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:03:26 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 04:05:24 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:05:36 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:05:37 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:05:39 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 04:16:10 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:16:24 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:16:25 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:16:27 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 04:17:19 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:17:30 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:17:31 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:17:33 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 04:18:50 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:19:02 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:19:02 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:19:05 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 04:19:29 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:19:41 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:19:42 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:19:44 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-29 04:21:27 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:21:38 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:21:39 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:22:38 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:22:49 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:22:49 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:25:48 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:25:59 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:26:00 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:28:36 INFO  AcurusResume:38 - Launch the browser
+2021-01-29 04:28:53 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-29 04:28:54 INFO  AcurusResume:34 - Entered DOB
+2021-01-29 04:28:59 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-31 19:48:18 INFO  AcurusResume:38 - Launch the browser
+2021-01-31 19:48:50 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-31 19:48:51 INFO  AcurusResume:34 - Entered DOB
+2021-01-31 19:48:57 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-31 19:51:26 INFO  AcurusResume:38 - Launch the browser
+2021-01-31 19:51:41 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-31 19:51:42 INFO  AcurusResume:34 - Entered DOB
+2021-01-31 19:51:45 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-01-31 20:05:34 INFO  AcurusResume:38 - Launch the browser
+2021-01-31 20:05:53 INFO  AcurusResume:32 - Entered Firstname Lastname Middlename
+2021-01-31 20:05:54 INFO  AcurusResume:34 - Entered DOB
+2021-01-31 20:06:00 INFO  AcurusResume:60 - Succesfully Completed Skills Page
+2021-02-01 20:37:00 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 20:37:15 INFO  AcurusResume:30 - Entered Firstname Lastname Middlename
+2021-02-01 20:37:16 INFO  AcurusResume:32 - Entered DOB
+2021-02-01 20:39:19 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 20:39:30 INFO  AcurusResume:30 - Entered Firstname Lastname Middlename
+2021-02-01 20:39:30 INFO  AcurusResume:32 - Entered DOB
+2021-02-01 20:41:40 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 20:41:49 INFO  AcurusResume:30 - Entered Firstname Lastname Middlename
+2021-02-01 20:41:50 INFO  AcurusResume:32 - Entered DOB
+2021-02-01 20:43:19 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 20:43:28 INFO  AcurusResume:30 - Entered Firstname Lastname Middlename
+2021-02-01 20:43:29 INFO  AcurusResume:32 - Entered DOB
+2021-02-01 20:51:17 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 20:51:26 INFO  AcurusResume:30 - Entered Firstname Lastname Middlename
+2021-02-01 20:51:27 INFO  AcurusResume:32 - Entered DOB
+2021-02-01 20:51:59 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 20:52:07 INFO  AcurusResume:30 - Entered Firstname Lastname Middlename
+2021-02-01 20:52:08 INFO  AcurusResume:32 - Entered DOB
+2021-02-01 21:00:25 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 21:00:35 INFO  AcurusResume:34 - Entered Firstname Lastname Middlename
+2021-02-01 21:00:35 INFO  AcurusResume:36 - Entered DOB
+2021-02-01 21:00:44 INFO  AcurusResume:62 - Quit the browser
+2021-02-01 21:25:43 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 21:26:47 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 21:28:22 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 21:33:09 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 21:34:28 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 22:14:31 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 22:37:45 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 22:50:37 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 22:52:51 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 22:54:01 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 22:55:05 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 22:57:14 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:00:29 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:07:55 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:08:36 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:10:46 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:11:35 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:12:44 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:20:28 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:22:48 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:24:08 INFO  AcurusResume:38 - Launch the browser
+2021-02-01 23:25:46 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:41:14 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:44:45 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:48:05 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:50:07 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:50:59 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 19:54:37 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:55:19 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 19:57:34 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:57:55 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 19:58:42 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:59:02 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 19:59:28 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 19:59:50 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 20:04:48 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 20:05:18 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 20:10:41 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 20:11:04 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 20:11:40 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 20:12:01 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 20:12:46 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 20:13:07 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 20:14:00 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 20:14:21 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 20:29:25 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 20:29:46 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 20:31:38 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 20:32:05 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 21:07:18 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 21:07:38 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 21:09:59 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 21:10:20 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 21:12:51 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 21:13:12 INFO  AcurusResume:63 - Quit the browser
+2021-02-03 21:14:24 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 21:27:13 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 21:28:26 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 22:09:54 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 22:12:23 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 22:18:43 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 23:08:18 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 23:11:07 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 23:13:29 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 23:14:46 INFO  AcurusResume:38 - Launch the browser
+2021-02-03 23:17:26 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:36:52 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:39:14 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:40:32 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:43:06 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:45:31 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:47:44 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:50:24 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:52:08 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:53:15 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:56:31 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 00:57:46 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 01:01:44 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 01:05:12 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 01:06:53 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 01:08:41 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 01:38:07 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 01:44:51 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 01:45:24 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 01:46:15 INFO  AcurusResume:38 - Launch the browser
+2021-02-04 02:04:10 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 20:42:27 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 20:47:21 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 20:48:48 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 20:49:30 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 20:50:24 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 21:12:42 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 21:18:39 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 21:27:37 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 21:28:01 INFO  AcurusResume:38 - Launch the browser
+2021-02-08 21:28:03 INFO  AcurusResume:15 - URL has opend

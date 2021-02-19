@@ -26,8 +26,8 @@ public class TestBaseClass {
 	public String UserName=configPro.GetUserName();
 	public String PassWord=configPro.GetPassWord();
 
-	public static WebDriver driver;
-	public static Logger logger;
+	public WebDriver driver;
+	public Logger logger;
 
 	@Parameters("browsername")
 	@BeforeClass
@@ -41,6 +41,7 @@ public class TestBaseClass {
 			System.setProperty("webdriver.chrome.silentOutput", "true");
 			System.setProperty("webdriver.chrome.driver", configPro.GetChromedriver());
 			ChromeOptions options = new ChromeOptions();
+			options.addArguments("start-maximized");
 			options.addArguments("--no-sandbox");
 			driver=new ChromeDriver(options);
 		}
@@ -55,7 +56,7 @@ public class TestBaseClass {
 			driver=new InternetExplorerDriver();
 		}
 
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 
 	}
 

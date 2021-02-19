@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="AcurusResume">
-<parameter name="browsername" value="chrome"></parameter>
+<suite name="AcurusResume" parallel="classes" thread-count="3">
+	<parameter name="browsername" value="chrome"></parameter>
 	<listeners>
 		<listener class-name="classUtils.ReportingExtent"></listener>
 	</listeners>
-	
+
 	<test name="ResumeTracker">
 		<parameter name="browsername" value="chrome"></parameter>
 		<classes>
-			<!-- <class name="PageTest.AddApplicantDemoTest"></class> -->
-			<class name="PageTest.EducationTest"></class>
+			<!-- <class name="PageTest.LoginTest"></class> <class name="PageTest.AddApplicantDemoTest"></class> -->
+			<class name="PageTest.LoginTest"></class>
 		</classes>
 
 	</test> <!-- Testdemo -->

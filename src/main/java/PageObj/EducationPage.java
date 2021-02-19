@@ -15,10 +15,10 @@ import classUtils.JavaScriptCode;
 import classUtils.JqueryCal;
 import classUtils.ReadConfig;
 
-public class EducationPage extends ReadConfig{
-	static WebDriver driver;
+public class EducationPage{
+	public WebDriver driver;
 	public EducationPage(WebDriver driver) {
-		EducationPage.driver=driver;
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 
@@ -38,6 +38,10 @@ public class EducationPage extends ReadConfig{
 	@CacheLookup
 	@FindBy(id="InputCertifications[]")
 	WebElement CertificateName;
+
+	@CacheLookup
+	@FindBy(xpath="//button[@id='nextBtn']")
+	WebElement NextBtn;
 
 	public void SelectEduCheck()
 	{
@@ -79,9 +83,15 @@ public class EducationPage extends ReadConfig{
 	{
 		CertificateName.sendKeys(name);
 	}
-	
+
 	public void ScrollHeight()
 	{
 		JavaScriptCode.ScrollDown(driver);
+	}
+
+	//Click on Next Button
+	public void ClickNextForEduPage()
+	{
+		JavaScriptCode.onClick(NextBtn, driver);
 	}
 }

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="AcurusResume" duration-ms="19101" started-at="2020-12-29T01:59:08 PST" finished-at="2020-12-29T01:59:27 PST">
+  <suite name="AcurusResume" duration-ms="7316" started-at="2021-02-08T20:50:24 PST" finished-at="2021-02-08T20:50:31 PST">
     <groups>
     </groups>
-    <test name="ResumeTracker" duration-ms="19101" started-at="2020-12-29T01:59:08 PST" finished-at="2020-12-29T01:59:27 PST">
-      <class name="PageTest.EducationTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.EducationTest@731a74c]" name="setUp" is-config="true" duration-ms="6589" started-at="2020-12-29T01:59:08 PST" finished-at="2020-12-29T01:59:15 PST">
+    <test name="ResumeTracker" duration-ms="7316" started-at="2021-02-08T20:50:24 PST" finished-at="2021-02-08T20:50:31 PST">
+      <class name="PageTest.MrfRequestApproverTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.MrfRequestApproverTest@67b92f0a]" name="setUp" is-config="true" duration-ms="2795" started-at="2021-02-08T20:50:24 PST" finished-at="2021-02-08T20:50:27 PST">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="GetUrl()[pri:0, instance:PageTest.EducationTest@731a74c]" name="GetUrl" is-config="true" duration-ms="6457" started-at="2020-12-29T01:59:15 PST" finished-at="2020-12-29T01:59:21 PST">
+        <test-method status="PASS" signature="GetUrl()[pri:0, instance:PageTest.MrfRequestApproverTest@67b92f0a]" name="GetUrl" is-config="true" duration-ms="3093" started-at="2021-02-08T20:50:27 PST" finished-at="2021-02-08T20:50:30 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUrl -->
-        <test-method status="PASS" signature="EduTest()[pri:0, instance:PageTest.EducationTest@731a74c]" name="EduTest" duration-ms="5850" started-at="2020-12-29T01:59:21 PST" finished-at="2020-12-29T01:59:27 PST">
+        <test-method status="PASS" signature="MrfApproverTestCase()[pri:0, instance:PageTest.MrfRequestApproverTest@67b92f0a]" name="MrfApproverTestCase" duration-ms="1202" started-at="2021-02-08T20:50:30 PST" finished-at="2021-02-08T20:50:31 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EduTest -->
-      </class> <!-- PageTest.EducationTest -->
+        </test-method> <!-- MrfApproverTestCase -->
+      </class> <!-- PageTest.MrfRequestApproverTest -->
     </test> <!-- ResumeTracker -->
   </suite> <!-- AcurusResume -->
 </testng-results>

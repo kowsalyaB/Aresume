@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [AcurusResume]">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [AcurusResume]" parallel="classes">
   <parameter name="browsername" value="chrome"/>
   <listeners>
     <listener class-name="classUtils.ReportingExtent"/>
   </listeners>
-  <test thread-count="5" name="ResumeTracker(failed)">
+  <test thread-count="3" name="ResumeTracker(failed)" parallel="classes">
     <parameter name="browsername" value="chrome"/>
     <classes>
       <class name="PageTest.LoginTest">
@@ -13,7 +13,6 @@
           <include name="GetUrl"/>
           <include name="Logintest"/>
           <include name="DeleteCookies"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- PageTest.LoginTest -->

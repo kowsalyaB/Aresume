@@ -1,5 +1,11 @@
-PageTest\TestBaseClass.class
+PageTest\AssessmentTest.class
+PageTest\MrfReqApproveTest.class
 PageTest\AddApplicantDemoTest.class
-PageTest\LoginTestExcel.class
 PageTest\EducationTest.class
+PageTest\MrfRequestApproverTest.class
+PageTest\SearchAppearanceTest.class
 PageTest\LoginTest.class
+PageTest\TestBaseClass.class
+PageTest\EmployementTest.class
+PageTest\SkillsTest.class
+PageTest\LoginTestExcel.class
