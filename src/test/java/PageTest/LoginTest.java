@@ -25,7 +25,7 @@ public class LoginTest extends TestBaseClass {
 		login.setPassWord(PassWord);
 		logger.info("Selected value from dropdown");
 		login.selectRole("Recruiter");
-		logger.info("Clicked submit button");
+		logger.info("Clicked on the submit button");
 		login.Submit();
 		logger.info("Get teh title");
 		String titile=driver.getTitle();
