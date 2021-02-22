@@ -19,9 +19,9 @@ public class LoginTest extends TestBaseClass {
 	public void Logintest() throws IOException
 	{
 		LoginPage login=new LoginPage(driver);
-		logger.info("Entered username");
+		logger.info("Entered the username");
 		login.setUserName(UserName);
-		logger.info("Entered password");
+		logger.info("Entered the password");
 		login.setPassWord(PassWord);
 		logger.info("Selected value from dropdown");
 		login.selectRole("Recruiter");
